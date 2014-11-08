@@ -15,6 +15,8 @@
 		D43AE1D71A0DAC390075C0ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43AE1D61A0DAC390075C0ED /* Images.xcassets */; };
 		D43AE1DA1A0DAC390075C0ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43AE1D81A0DAC390075C0ED /* LaunchScreen.xib */; };
 		D43AE1E61A0DAC390075C0ED /* AQSLINEActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43AE1E51A0DAC390075C0ED /* AQSLINEActivityTests.m */; };
+		D43AE1F11A0DAE7C0075C0ED /* AQSLINEActivity.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43AE1F01A0DAE7C0075C0ED /* AQSLINEActivity.xcassets */; };
+		D43AE1F41A0DAE860075C0ED /* AQSLINEActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D43AE1F31A0DAE860075C0ED /* AQSLINEActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		D43AE1DF1A0DAC390075C0ED /* AQSLINEActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQSLINEActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43AE1E41A0DAC390075C0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D43AE1E51A0DAC390075C0ED /* AQSLINEActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQSLINEActivityTests.m; sourceTree = "<group>"; };
+		D43AE1F01A0DAE7C0075C0ED /* AQSLINEActivity.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AQSLINEActivity.xcassets; sourceTree = "<group>"; };
+		D43AE1F21A0DAE860075C0ED /* AQSLINEActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSLINEActivity.h; sourceTree = "<group>"; };
+		D43AE1F31A0DAE860075C0ED /* AQSLINEActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSLINEActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 		D43AE1C81A0DAC390075C0ED /* AQSLINEActivity */ = {
 			isa = PBXGroup;
 			children = (
+				D43AE1EF1A0DAE720075C0ED /* Classes */,
 				D43AE1CD1A0DAC390075C0ED /* AppDelegate.h */,
 				D43AE1CE1A0DAC390075C0ED /* AppDelegate.m */,
 				D43AE1D01A0DAC390075C0ED /* ViewController.h */,
@@ -141,6 +147,16 @@
 				D43AE1E41A0DAC390075C0ED /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D43AE1EF1A0DAE720075C0ED /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D43AE1F01A0DAE7C0075C0ED /* AQSLINEActivity.xcassets */,
+				D43AE1F21A0DAE860075C0ED /* AQSLINEActivity.h */,
+				D43AE1F31A0DAE860075C0ED /* AQSLINEActivity.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +243,7 @@
 			files = (
 				D43AE1D51A0DAC390075C0ED /* Main.storyboard in Resources */,
 				D43AE1DA1A0DAC390075C0ED /* LaunchScreen.xib in Resources */,
+				D43AE1F11A0DAE7C0075C0ED /* AQSLINEActivity.xcassets in Resources */,
 				D43AE1D71A0DAC390075C0ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +297,7 @@
 			files = (
 				D43AE1D21A0DAC390075C0ED /* ViewController.m in Sources */,
 				D43AE1CF1A0DAC390075C0ED /* AppDelegate.m in Sources */,
+				D43AE1F41A0DAE860075C0ED /* AQSLINEActivity.m in Sources */,
 				D43AE1CC1A0DAC390075C0ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
