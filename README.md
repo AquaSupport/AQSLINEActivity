@@ -19,6 +19,13 @@ UIActivityViewController *activityViewController = [[UIActivityViewController al
 [self presentViewController:activityViewControoler animated:YES completion:NULL];
 ```
 
+Accepted `activityItems` Types
+---
+
+- `NSString`
+- `NSURL`
+- `UIImage`
+
 Installation
 ---
 
